@@ -33,7 +33,7 @@ if len(diff) > 0:
 		#prompts you - is this URL spam?
 		to_add = raw_input('Is %s spam? (y or n)> ' %(url))
 		#if it is, add it to the disavow
-		if (to_add == 'y') or (to_add == "Y"):
+		if (to_add.lower() == "Y"):
 			print "Added to the disavow file"
 			with open('disavow.txt', 'a') as disavow:
 				disavow.write("\n" + url)
