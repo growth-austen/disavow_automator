@@ -1,6 +1,6 @@
 #Disavow automator#
 
-The disavow automator is for those of us that are disavowing a lot of links (sometimes I disavow up to 1,000/day).
+The disavow automator is for those of us that are disavowing a lot of links (sometimes I disavow up to 1,000/day for https://www.lendup.com).
 
 It opens every URL that isn't in either your disavow file (`disavow.txt` or your whitelist `whitelist.txt` in the browser, and lets you disavow it or whitelist it with one tap.
 
