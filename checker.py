@@ -21,7 +21,7 @@ with open('whitelist.txt', 'r') as whitelist:
 #removes the URLs that are already in the whitelist or the disavow file
 diff = set(url_set)-set(disavow_urls)-set(whitelist_set)
 
-#checks to see if there are any URLs
+#checks to see if there are any URLs remaining after removing the whitelist and disavow
 if len(diff) > 0:
 	print "Looking at these URLs: %s" % diff
 
