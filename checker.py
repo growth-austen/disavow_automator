@@ -1,5 +1,4 @@
 import requests
-from HTMLParser import HTMLParser
 import webbrowser
 import time
 
